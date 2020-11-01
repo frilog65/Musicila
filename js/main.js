@@ -289,16 +289,7 @@ function change_status(event) {
 function keydown_change_status(event) {
   if (event.code == "Space") {
     event.preventDefault();
-    if (isPlaying == true) {
-      document.querySelector('.mus-player-pause').remove();
-      previous_btn.after(btn_play);
-      audio.pause();
-    } else {
-      document.querySelector('.mus-player-play').remove();
-      previous_btn.after(btn_pause);
-      audio.play();
-    }
-    isPlaying = !isPlaying;
+    document.addEventListener('keyup', space_change_status);
   }
   switch(event.key) {
     case "MediaPlayPause":
@@ -329,6 +320,23 @@ function keydown_change_status(event) {
     audio_index = current_index;
     playMusic(document.getElementById(queue[current_index]), false);
     break;
+  }
+}
+
+//функция, которая не позволяет при зажатом Пробеле постоянно включать-выключать трек
+function space_change_status (event) {
+  if (event.code == "Space") {
+    if (isPlaying == true) {
+      document.querySelector('.mus-player-pause').remove();
+      previous_btn.after(btn_play);
+      audio.pause();
+    } else {
+      document.querySelector('.mus-player-play').remove();
+      previous_btn.after(btn_pause);
+      audio.play();
+    }
+    isPlaying = !isPlaying;
+    document.removeEventListener('keyup', space_change_status);
   }
 }
 
