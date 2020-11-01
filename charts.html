@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="favicon" href="images/icon.svg">
+
+    <title>Musicila - Charts</title>
+  </head>
+  <body>
+    <header>
+      <div class="container mus-main">
+      <nav class="navbar navbar-expand-lg navbar-dark mus-navbar">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.svg" width="200" height="60"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav mr-quto">
+              <li class="nav-item">
+                <a href="charts.html">Charts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">My Tracks</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+    </header>
+    <main>
+      <div class="container mus-main mus-top50">
+        <div class="row">
+          <div class="col-3">
+            <img src="images/top50.svg" class="img-fluid mus-top-img">
+          </div>
+          <div class="col-9">
+            <hr color="black" style="margin: 0;" width="90%">
+            <p><i>Musicila</i></p>
+            <h2><b>Top 50: All music genres</b></h2>
+            <hr color="black" style="margin: 0;" width="90%">
+          </div>
+          <div class="mus-row-shuffle">
+            <div>
+              <img src="images/old_shuffle.svg" class="img-fluid" width="35" height="35">
+            </div>
+            <div>
+              <b>Shuffle tracks</b>
+            </div>
+          </div>
+        </div>
+        <hr color="black">
+        <div class="mus-list-top-songs">
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="mus-player">
+        <div class="mus-time-bar-div">
+          <progress max="100" value="0" class="mus-time-bar"></progress>
+          <p><i class="mus-time-bar-start">0:00</i><i class="mus-time-bar-end" style="float: right">0:00</i></p>
+        </div>
+        <div class="mus-player-shuffle">
+          <img src="images/shuffle.svg" class="img-fluid" width="35" height="35">
+        </div>
+        <div class="mus-player-previous">
+          <img src="images/previous.svg" class="img-fluid" width="35" height="35">
+        </div>
+        <div class="mus-player-play mus-main-btn">
+          <img src="images/play.svg" class="img-fluid" width="35" height="35">
+        </div>
+        <div class="mus-player-next">
+          <img src="images/next.svg" class="img-fluid" width="35" height="35">
+        </div>
+        <div class="mus-player-volume">
+          <img src="images/volume.svg" class="img-fluid" width="35" height="35">
+        </div>
+        <div>
+          <progress max="100" value="30" class="mus-volume-bar"></progress>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/songs.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
+</html>
