@@ -3,8 +3,7 @@ body {
   font-family: 'Montserrat', sans-serif; }
 
 .mus-navbar {
-  background: #f2cf9b;
-  background: linear-gradient(90deg, #f2cf9b 0%, #ecac4b 35%, #f2cf9b 100%);
+  background: linear-gradient(24deg, #ffcccc 0%, #ffe49f 51%, #ffcccc 100%);
   padding: 0; }
 
 .nav-item {
@@ -42,11 +41,11 @@ body {
         .mus-main .search-bar .search-input input:focus {
           box-shadow: none; }
     .mus-main .search-bar .btn {
-      color: #ECAC4B;
-      border-color: #ECAC4B;
+      color: #ecac4b;
+      border-color: #ecac4b;
       border-radius: 30px; }
       .mus-main .search-bar .btn:hover {
-        background: #ECAC4B;
+        background: #ecac4b;
         color: white; }
       .mus-main .search-bar .btn:active {
         box-shadow: none; }
@@ -114,7 +113,7 @@ body {
   width: 70%; }
   .mus-row-songs:hover {
     background: #faf0fa;
-    border-color: #FFA640; }
+    border-color: #ffa640; }
   .mus-row-songs:active {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.5); }
   .mus-row-songs img {
@@ -186,7 +185,6 @@ body {
   border-radius: 20px; }
 
 .mus-volume-bar::-webkit-progress-value {
-  background: #91ecec;
   background: linear-gradient(24deg, #91ecec 3%, #ff91e3 51%, #fc9191 96%);
   border-radius: 20px; }
 
@@ -209,7 +207,6 @@ body {
   border-radius: 20px; }
 
 .mus-time-bar::-webkit-progress-value {
-  background: #91ecec;
   background: linear-gradient(24deg, #91ecec 3%, #ff91e3 51%, #fc9191 96%);
   border-radius: 20px; }
 
@@ -222,7 +219,6 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: #ffdeac;
   background: linear-gradient(352deg, #ffdeac 1%, #eed4ad 49%, #f2cf9b 94%);
   padding: 15px 0;
   z-index: 2; }
