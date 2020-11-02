@@ -1,5 +1,6 @@
 # Musicila
 Frontend
+
 Musicila - музыкальный сервис по типу Spotify или BOOM.
 
 На странице Charts разработан музыкальный плеер, позволяющий:
