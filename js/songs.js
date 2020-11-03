@@ -4,181 +4,181 @@ let json = `[
 {
 "id" : "01",
 "rating" : 1,
-"name" : "Lemonade ft. Don Toliver, Gunna & NAV",
-"artist" : "Internet Money Records",
-"time" : "3:15",
-"url" : "images/songs/lemonade.jpg",
-"audio" : "audio/lemonade.mp3"
+"name" : "Adventures",
+"artist" : "A Himitsu",
+"time" : "3:44",
+"url" : "images/songs/1.jpg",
+"audio" : "audio/1.mp3"
 },
 {
 "id" : "02",
 "rating" : 2,
-"name" : "Stuck with U",
-"artist" : "Ariana Grande & Justin Bieber",
-"time" : "3:48",
-"url" : "images/songs/stuck.png",
-"audio" : "audio/Stuck with U.mp3"
+"name" : "We Are One",
+"artist" : "Vexento",
+"time" : "3:49",
+"url" : "images/songs/2.jpg",
+"audio" : "audio/2.mp3"
 },
 {
 "id" : "03",
 "rating" : 3,
-"name" : "positions",
-"artist" : "Ariana Grande",
-"time" : "2:52",
-"url" : "images/songs/positions.jpg",
-"audio" : "audio/positions.mp3"
+"name" : "High",
+"artist" : "JPB",
+"time" : "3:12",
+"url" : "images/songs/3.jpg",
+"audio" : "audio/3.mp3"
 },
 {
 "id" : "04",
 "rating" : 4,
-"name" : "POPSTAR",
-"artist" : "DJ Khaled ft. Drake",
-"time" : "3:20",
-"url" : "images/songs/popstar.png",
-"audio" : "audio/popstar.mp3"
+"name" : "Good For You",
+"artist" : "THBD",
+"time" : "4:31",
+"url" : "images/songs/4.jpg",
+"audio" : "audio/4.mp3"
 },
 {
 "id" : "05",
 "rating" : 5,
-"name" : "Mood ft. iann dior",
-"artist" : "24kGoldn",
-"time" : "2:20",
-"url" : "images/songs/mood.png",
-"audio" : "audio/mood.mp3"
+"name" : "Buddha",
+"artist" : "Kontekst",
+"time" : "3:29",
+"url" : "images/songs/5.jpg",
+"audio" : "audio/5.mp3"
 },
 {
 "id" : "06",
 "rating" : 6,
-"name" : "What You Know Bout Love",
-"artist" : "Pop Smoke",
-"time" : "2:40",
-"url" : "images/songs/whatuknow.png",
-"audio" : "audio/whatuknow.mp3"
+"name" : "Last Summer",
+"artist" : "Ikson",
+"time" : "2:42",
+"url" : "images/songs/6.jpg",
+"audio" : "audio/6.mp3"
 },
 {
 "id" : "07",
 "rating" : 7,
-"name" : "Someone You Loved",
-"artist" : "Lewis Capaldi",
-"time" : "3:02",
-"url" : "images/songs/someoneuloved.jpg",
-"audio" : "audio/someoneuloved.mp3"
+"name" : "Happy Life",
+"artist" : "FREDJI",
+"time" : "3:51",
+"url" : "images/songs/7.jpg",
+"audio" : "audio/7.mp3"
 },
 {
 "id" : "08",
 "rating" : 8,
-"name" : "Roses (Imanbek Remix)",
-"artist" : "SAINt JHN",
-"time" : "2:56",
-"url" : "images/songs/roses.jpg",
-"audio" : "audio/roses.mp3"
+"name" : "Up In My Jam (All Of A Sudden)",
+"artist" : "Kubbi",
+"time" : "3:40",
+"url" : "images/songs/8.jpg",
+"audio" : "audio/8.mp3"
 },
 {
 "id" : "09",
 "rating" : 9,
-"name" : "Come & Go",
-"artist" : "Juice WRLD & Marshmello",
-"time" : "3:25",
-"url" : "images/songs/comeandgo.jpg",
-"audio" : "audio/comeandgo.mp3"
+"name" : "Spring In My Step",
+"artist" : "Silent Partner",
+"time" : "1:58",
+"url" : "images/songs/9.jpg",
+"audio" : "audio/9.mp3"
 },
 {
 "id" : "010",
 "rating" : 10,
-"name" : "Midnight Sky",
-"artist" : "Miley Cyrus",
-"time" : "3:43",
-"url" : "images/songs/midnightsky.jpeg",
-"audio" : "audio/midnightsky.mp3"
+"name" : "Summer Smile",
+"artist" : "Silent Partner",
+"time" : "1:52",
+"url" : "images/songs/10.jpg",
+"audio" : "audio/10.mp3"
 },
 {
 "id" : "011",
 "rating" : 11,
-"name" : "Злой",
-"artist" : "SLAVA MARLOW & Элджей",
-"time" : "2:38",
-"url" : "images/disc.svg",
-"audio" : "audio/zloy.mp3"
+"name" : "Colors",
+"artist" : "Tobu",
+"time" : "4:39",
+"url" : "images/songs/11.jpg",
+"audio" : "audio/11.mp3"
 },
 {
 "id" : "012",
 "rating" : 12,
-"name" : "SICKO MODE",
-"artist" : "Travis Scott & Drake",
-"time" : "5:12",
-"url" : "images/songs/astroworld.jpg",
-"audio" : "audio/sickomode.mp3"
+"name" : "Vibe With Me",
+"artist" : "Joakim Karud",
+"time" : "2:53",
+"url" : "images/songs/12.jpg",
+"audio" : "audio/12.mp3"
 },
 {
 "id" : "013",
 "rating" : 13,
-"name" : "Starboy ft. Daft Punk",
-"artist" : "The Weeknd",
-"time" : "3:50",
-"url" : "images/songs/starboy.jpg",
-"audio" : "audio/starboy.mp3"
+"name" : "Funk City",
+"artist" : "Reatch",
+"time" : "4:40",
+"url" : "images/songs/13.jpg",
+"audio" : "audio/13.mp3"
 },
 {
 "id" : "014",
 "rating" : 14,
-"name" : "FRANCHISE",
-"artist" : "Travis Scott feat. Young Thug, M.I.A.",
-"time" : "3:22",
-"url" : "images/songs/franchise.jpg",
-"audio" : "audio/franchise.mp3"
+"name" : "Lights",
+"artist" : "Sappheiros",
+"time" : "3:27",
+"url" : "images/songs/14.jpg",
+"audio" : "audio/14.mp3"
 },
 {
 "id" : "015",
 "rating" : 15,
-"name" : "По Глазам",
-"artist" : "SLAVA MARLOW",
-"time" : "2:00",
-"url" : "images/disc.svg",
-"audio" : "audio/foreyes.mp3"
+"name" : "Island",
+"artist" : "MBB",
+"time" : "2:04",
+"url" : "images/songs/15.jpg",
+"audio" : "audio/15.mp3"
 },
 {
 "id" : "016",
 "rating" : 16,
-"name" : "Blinding Lights",
-"artist" : "The Weeknd",
-"time" : "3:21",
-"url" : "images/songs/blindinglights.jpg",
-"audio" : "audio/blindinglights.mp3"
+"name" : "Lost Within",
+"artist" : "A Himitsu",
+"time" : "5:33",
+"url" : "images/songs/16.jpg",
+"audio" : "audio/16.mp3"
 },
 {
 "id" : "017",
 "rating" : 17,
-"name" : "Head & Heart",
-"artist" : "Joel Corry x MNEK",
-"time" : "2:46",
-"url" : "images/songs/headheart.jpg",
-"audio" : "audio/headandheart.mp3"
+"name" : "Crying Over You",
+"artist" : "christophermorrow",
+"time" : "2:20",
+"url" : "images/songs/17.jpg",
+"audio" : "audio/17.mp3"
 },
 {
 "id" : "018",
 "rating" : 18,
-"name" : "Breaking Me",
-"artist" : "Topic, A7S",
-"time" : "2:47",
-"url" : "images/songs/breakinme.jpg",
-"audio" : "audio/breakinme.mp3"
+"name" : "Jazz In Paris",
+"artist" : "Media Right Productions",
+"time" : "1:42",
+"url" : "images/songs/18.jpg",
+"audio" : "audio/18.mp3"
 },
 {
 "id" : "019",
 "rating" : 19,
-"name" : "Tyler Herro",
-"artist" : "Jack Harlow",
-"time" : "2:37",
-"url" : "images/disc.svg",
-"audio" : "audio/tylerherro.mp3"
+"name" : "Blue Skies",
+"artist" : "Silent Partner",
+"time" : "2:43",
+"url" : "images/songs/19.jpg",
+"audio" : "audio/19.mp3"
 },
 {
 "id" : "020",
 "rating" : 20,
-"name" : "Alone",
-"artist" : "Marshmello",
-"time" : "4:33",
-"url" : "images/songs/alone.jpg",
-"audio" : "audio/alone.mp3"
+"name" : "Flying High",
+"artist" : "FREDJI",
+"time" : "4:42",
+"url" : "images/songs/20.jpg",
+"audio" : "audio/20.mp3"
 }
 ]`;
